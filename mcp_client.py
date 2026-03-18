@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+## this client will call the local mcp server
 # ── Hugging Face client ───────────────────────────────────────────────────────
 hf_client = InferenceClient(
     provider="novita",
